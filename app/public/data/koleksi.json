@@ -10,7 +10,7 @@
     "judul": "Cantik Itu Luka",
     "kategori": "Novel",
     "penulis": "Eka Kuriawan",
-    "tahun": 2002,
+    "tahunTerbit": 2002,
     "status": "Ingin Dibeli"
   },
   {
@@ -18,7 +18,7 @@
     "judul": "Renggaman:The Legend of Jaka Tarub",
     "kategori": "Komik",
     "penulis": "Sweta Kartika",
-    "tahun": 2020,
+    "tahunTerbit": 2020,
     "status": "Dimiliki"
   },
   {
@@ -26,7 +26,7 @@
     "judul": "Tarian Bumi",
     "kategori": "Novel",
     "penulis": "Oka Rusmini",
-    "tahun": 2000,
+    "tahunTerbit": 2000,
     "status": "Sedang Dibaca"
   },
   {
@@ -34,7 +34,7 @@
     "judul": "Mice Cartoon: Indonesia Banget",
     "kategori": "Komik",
     "penulis": "Muhammad Mice Misrad",
-    "tahun": 2011,
+    "tahunTerbit": 2011,
     "status": "Ingin Dibeli"
   },
   {
@@ -42,7 +42,7 @@
     "judul": "Life 3.0:Being Human in the Age of Artificial Intelligence",
     "kategori": "Teknologi",
     "penulis": "Max Tegmark",
-    "tahun": 2017,
+    "tahunTerbit": 2017,
     "status": "Sedang Dibaca"
   },
   {
@@ -50,7 +50,7 @@
     "judul": "Man's Search for Meaning",
     "kategori": "Filsafat",
     "penulis": "Viktor E.Frankl",
-    "tahun": 1946,
+    "tahunTerbit": 1946,
     "status": "Dimiliki"
   },
   {
@@ -58,7 +58,7 @@
     "judul": "Zero to One",
     "kategori": "Teknologi",
     "penulis": "Peter Thiel",
-    "tahun": 2014,
+    "tahunTerbit": 2014,
     "status": "Sedang Dibaca"
   },
   {
@@ -66,7 +66,7 @@
     "judul": "Nusantara: Sejarah Indonesia",
     "kategori": "Sejarah",
     "penulis": "Bernard H.M Vlekke",
-    "tahun": 1943,
+    "tahunTerbit": 1943,
     "status": "Ingin Dibeli"
   },
   {
@@ -74,7 +74,7 @@
     "judul": "Sapiens: A Graphic History",
     "kategori": "Sejarah",
     "penulis": "Yuval Noah Harari",
-    "tahun": 2020,
+    "tahunTerbit": 2020,
     "status": "Dimiliki"
   },
   {
@@ -82,7 +82,7 @@
     "judul": "Sebuah Seni Untuk Bersikap Bodo Amat",
     "kategori": "Filsafat",
     "penulis": "Mark Manson",
-    "tahun": 2016,
+    "tahunTerbit": 2016,
     "status": "Sedang Dibaca "
   }
   
