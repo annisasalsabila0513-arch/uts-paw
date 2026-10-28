@@ -1,5 +1,5 @@
-import {useParams} from 'react-router-dom';
-import useKoleksi from '../hooks/useKoleksi.js';
+import {useParams} from 'react-router-dom'
+import useKoleksi from '../hooks/useKoleksi.js'
 
 // Buat tujuh berkas ini di src/pages/ dengan isi sementara seperti ini.
 // Isinya diganti satu per satu saat mengikuti panduan setiap halaman.
