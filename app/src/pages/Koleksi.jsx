@@ -3,6 +3,6 @@
 import useKoleksi from '../hooks/useKoleksi.js'
 
 export default function Koleksi() {
-  const { item, hapus } = UseKoleksi();
+  const { items, hapus } = useKoleksi();
   return <h1>Koleksi</h1>
 }
