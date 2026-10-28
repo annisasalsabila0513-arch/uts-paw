@@ -9,6 +9,7 @@ export default function Tambah() {
   const {tambah} = useKoleksi();
   const handleSubmit = (e)=>{
     e.preventDefault();
+    tambah({judul,kategori,penulis,tahunTerbit})
     navigate('/koleksi');
   };
   
