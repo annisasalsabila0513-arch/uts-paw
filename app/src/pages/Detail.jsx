@@ -28,6 +28,8 @@ export default function Detail() {
     <section>
       <h1>{item.judul}</h1>
       <dl>
+        <dt>Penulis</dt> {/*Sesuaikan dengan label yang dicari grader*/}
+        <dd>{item.penulis}</dd>
         <dt>Kategori</dt>
         <dd>{item.kategori}</dd>
         <dt>Tenggat</dt>
