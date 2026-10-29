@@ -36,10 +36,6 @@ export default function Detail() {
         <dd>{item.tahunTerbit}</dd>
         <dt>Status</dt>
         <dd>{item.status}</dd>
-        <dt>Tenggat</dt>
-        <dd>{item.tenggat}</dd>
-        <dt>Prioritas</dt>
-        <dd>{item.prioritas}</dd>
       </dl>
       <div className="aksi">
         <button type="button" onClick={konfirmasiHapus}>
