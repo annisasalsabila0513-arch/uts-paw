@@ -3,7 +3,7 @@ import { useNavigate } from 'react-router-dom'
 import useKoleksi from '../hooks/useKoleksi.js'
 import './Tambah.css'
 
-const AWAL = { judul: '', kategori: 'Komik', penulis: '', status: 'Dimiliki' }
+const AWAL = { judul: '', kategori: 'Komik', penulis: '', status: 'Dimiliki', tahunTerbit:'' }
 
 export default function Tambah() {
   const { tambah } = useKoleksi()
@@ -42,6 +42,9 @@ export default function Tambah() {
 
       <label htmlFor="penulis">Penulis</label>
       <input id="penulis" name="penulis" value={form.penulis} onChange={ubah} />
+
+      <label htmlFor="tahunTerbit">Tahun Terbit</label>
+      <input id="tahunTerbit" name="tahunTerbit" value={form.tahunTerbit} onChange={ubah} />
 
       <label htmlFor="status">Status</label>
       <select id="status" name="status" value={form.status} onChange={ubah}>
