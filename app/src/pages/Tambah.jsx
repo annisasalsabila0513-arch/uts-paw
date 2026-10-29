@@ -3,7 +3,7 @@ import { useNavigate } from 'react-router-dom'
 import useKoleksi from '../hooks/useKoleksi.js'
 import './Tambah.css'
 
-const AWAL = { judul: '', kategori: 'Kuliah', penulis: '', status: 'Dimiliki' }
+const AWAL = { judul: '', kategori: 'Komik', penulis: '', status: 'Dimiliki' }
 
 export default function Tambah() {
   const { tambah } = useKoleksi()
@@ -33,8 +33,11 @@ export default function Tambah() {
 
       <label htmlFor="kategori">Kategori</label>
       <select id="kategori" name="kategori" value={form.kategori} onChange={ubah}>
-        <option>Kuliah</option>
-        <option>Organisasi</option>
+        <option value="Komik">Komik</option>
+        <option value="Novel">Novel</option>
+        <option value="Sejarah">Sejarah</option>
+        <option value="Teknologi">Teknologi</option>
+        <option value="Filsafat">Filsafat</option>
       </select>
 
       <label htmlFor="penulis">Penulis</label>
