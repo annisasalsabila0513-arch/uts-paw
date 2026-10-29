@@ -1,12 +1,16 @@
-import {useParams} from 'react-router-dom'
+import { useParams } from 'react-router-dom'
 import useKoleksi from '../hooks/useKoleksi.js'
 
-// Buat tujuh berkas ini di src/pages/ dengan isi sementara seperti ini.
-// Isinya diganti satu per satu saat mengikuti panduan setiap halaman.
 export default function Detail() {
-  const { id } = useParams();
-  const { items, hapus } = useKoleksi();
+  const { id } = useParams()
+  const { items, loading } = useKoleksi()
+  const item = items.find((i) => String(i.id) === id)
 
- return <h1>Detail</h1>
+  if (loading) return <p>Memuat data...</p>
 
+  return (
+    <section>
+      <h1>{item.judul}</h1>
+    </section>
+  )
 }
