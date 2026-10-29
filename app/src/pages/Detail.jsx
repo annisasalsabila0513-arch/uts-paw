@@ -34,6 +34,8 @@ export default function Detail() {
         <dd>{item.kategori}</dd>
         <dt>Tahun Terbit</dt>
         <dd>{item.tahunTerbit}</dd>
+        <dt>Status</dt>
+        <dd>{item.status}</dd>
         <dt>Tenggat</dt>
         <dd>{item.tenggat}</dd>
         <dt>Prioritas</dt>
