@@ -9,7 +9,12 @@ Kelas: RA
 Tema: Rak Buku Pribadi
 Deployment: https://annisasalsabila0513-arch.github.io/uts-paw/
 
-![Tangkapan layar beranda](docs/beranda.png)
+### Tangkapan Layar
+![Beranda](./beranda.png)
+![Koleksi](./koleksi.png)
+![Tambah](./tambah.png)
+![Statistik](./statistik.png)
+![Tentang](./tentang.png)
 
 ## Fitur
 
