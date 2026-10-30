@@ -24,7 +24,8 @@ export default function Tambah() {
   }
 
   return (
-    <form className="formulir" onSubmit={simpan} noValidate>
+    <section id="utama">
+    <form id="formulir-koleksi" className="formulir" onSubmit={simpan} noValidate>
       <h1>Tambah Tugas</h1>
 
       <label htmlFor="judul">Judul</label>
@@ -53,7 +54,10 @@ export default function Tambah() {
         <option value="Ingin Dibeli">Ingin dibeli</option>
       </select>
 
+      <div id="area-tombol">
       <button type="submit">Simpan</button>
+      </div>
     </form>
+    </section>
   )
 }
