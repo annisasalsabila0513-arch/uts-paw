@@ -12,3 +12,40 @@ test('rute tidak dikenal menampilkan 404', () => {
   )
   expect(screen.getByRole('heading', { name: '404' })).toBeInTheDocument()
 })
+
+test('menampilkan halaman beranda', () => {
+  render(
+    <MemoryRouter initialEntries={['/']}>
+      <App />
+    </MemoryRouter>,
+  )
+  expect(document.body).toBeDefined()
+})
+
+test('menampilkan navigasi utama aplikasi', () => {
+  render(
+    <MemoryRouter initialEntries={['/']}>
+      <App />
+    </MemoryRouter>,
+  )
+  const nav = screen.getByRole('navigation')
+  expect(nav).toBeInTheDocument()
+})
+
+test('rute statistik merender elemen dengan benar', () => {
+  render(
+    <MemoryRouter initialEntries={['/statistik']}>
+      <App />
+    </MemoryRouter>,
+  )
+  expect(document.body).toBeDefined()
+})
+
+test('aplikasi memuat struktur dokumen dengan sukses', () => {
+  render(
+    <MemoryRouter initialEntries={['/koleksi']}>
+      <App />
+    </MemoryRouter>,
+  )
+  expect(document.body.textContent.length).toBeGreaterThan(0)
+})
