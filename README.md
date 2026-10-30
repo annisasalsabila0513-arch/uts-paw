@@ -7,7 +7,7 @@ Repo induk Ujian Tengah Semester Pengembangan Aplikasi Web, Informatika ITERA, s
 | Kelas | Dibuka | Tenggat |
 |---|---|---|
 | RA | Selasa, 27 Oktober 2026 pukul 08.00 WIB | Jumat, 30 Oktober 2026 pukul 23.59 WIB |
-| RB | Kamis, 29 Oktober 2026 pukul 13.00 WIB | Minggu, 1 November 2026 pukul 23.59 WIB |
+
 
 Hanya mahasiswa yang terdaftar di data kelas RA dan RB yang dinilai. AI generatif dilarang; baca [Ketentuan](https://uts-paw.mhabibalgifari.web.id/ketentuan) sebelum mulai.
 
