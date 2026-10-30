@@ -23,6 +23,7 @@ Deployment: https://annisasalsabila0513-arch.github.io/uts-paw/
 cd app
 npm install
 npm run dev
+```
 
 ## Konsep React yang dipakai
 
