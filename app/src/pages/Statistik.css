@@ -40,3 +40,27 @@
     padding: 0.4rem 0.5rem;
   }
 }
+
+#utama {
+  padding: 1rem;
+}
+
+#formulir-koleksi {
+  margin: 0 auto;
+}
+
+#area-tombol {
+  display: flex;
+}
+
+button:hover {
+  opacity: 0.9;
+}
+
+input:focus {
+  outline: 2px solid #1f2328
+}
+
+button:active {
+  transform: scale(0.98);
+}
