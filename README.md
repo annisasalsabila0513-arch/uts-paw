@@ -10,11 +10,11 @@ Tema: Rak Buku Pribadi
 Deployment: https://annisasalsabila0513-arch.github.io/uts-paw/
 
 ### Tangkapan Layar
-![Beranda](./beranda.png)
-![Koleksi](./koleksi.png)
-![Tambah](./tambah.png)
-![Statistik](./statistik.png)
-![Tentang](./tentang.png)
+![Beranda](./app/src/gambar/beranda.png)
+![Koleksi](./app/src/gambar/koleksi.png)
+![Tambah](./app/src/gambar/tambah.png)
+![Statistik](./app/src/gambar/statistik.png)
+![Tentang](./app/src/gambar/tentang.png)
 
 ## Fitur
 
